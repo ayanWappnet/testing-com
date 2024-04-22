@@ -1,7 +1,7 @@
 {
-  "name": "testing",
+  "name": "@ayanWappnet/testing-com",
   "version": "0.0.1",
-  "private": true,
+  "main": "lib/index.ts",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -10,12 +10,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "react": "18.2.0",
     "react-native": "0.73.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "@babel/preset-env": "^7.20.0",
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
     "@babel/runtime": "^7.20.0",
     "@react-native/babel-preset": "0.73.21",
     "@react-native/eslint-config": "0.73.2",
