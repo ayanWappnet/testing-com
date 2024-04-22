@@ -1,6 +1,6 @@
 {
   "name": "@ayanWappnet/testing-com",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.ts",
   "scripts": {
     "android": "react-native run-android",
